@@ -1,0 +1,288 @@
+body {
+  background-color: #f9f8fe;
+  max-width: 1440px;
+  max-height: 2119px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+}
+
+.tudo {
+  padding: 30px 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-left: auto;
+}
+
+.minimenu {
+  margin-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #474747;
+}
+
+.minimenu h5{
+  cursor: pointer;
+}
+
+.minimenu h5:hover{
+  color: black;
+}
+
+.papetecontainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.papetedoseninha {
+  width: 700px;
+  height: 500px;
+  background: #e2e3ff;
+  border-radius: 4px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.esquerda {
+  cursor: pointer;
+  text-align: left;
+  font-size: 25px;
+  display: flex;
+  color: #474747;
+  align-items: start;
+  transform: scaleY(1.8);
+}
+
+.esquerda:hover {
+  color: black;
+}
+
+.direita {
+  cursor: pointer;
+  text-align: right;
+  font-size: 25px;
+  display: flex;
+  color: #474747;
+  align-items: end;
+  transform: scaleY(1.8);
+}
+
+.direita:hover {
+  color: black;
+}
+
+.papetenis {
+  width: 75%;
+  border-radius: 4px;
+  gap: 700px;
+  transition: transform 0.3s ease;
+}
+
+.papetenis:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+  width: 80%;
+  height: auto;
+}
+
+.tudov2 {
+  margin-top: -10px;
+  letter-spacing: 1px;
+  text-align: left;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.todotexto {
+  justify-content: center;
+  max-width: 400px;
+}
+
+.nomeclatura {
+  font-size: 32px;
+  color: #1f1f1f;
+  margin: 2px;
+}
+
+.outros {
+  font-size: 12px;
+  color: #666666;
+  margin: 2px;
+}
+
+.este {
+  margin-top: 5px;
+  height: 23px;
+  width: 250px;
+  margin-left: 1px;
+}
+
+.precocontainer {
+  display: flex;
+  align-items: baseline;
+  gap: 1px;
+}
+
+.cifra {
+  font-size: 12px;
+  color: black;
+}
+
+.valor {
+  margin: 0;
+  font-size: 28px;
+  color: black;
+  margin-left: 1px;
+}
+
+.virgulakkkk {
+  font-size: 15px;
+  margin: 0;
+}
+
+.doublezero {
+  font-size: 15px;
+  margin: 0;
+}
+
+.antigo {
+  text-decoration: line-through;
+  margin-left: 5px;
+  color: #cccccc;
+}
+
+.descproduto {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.descricao {
+  font-size: 14px;
+  margin: 0;
+  margin-top: 0px;
+  color: #8f8f8f;
+}
+
+.desctexto {
+  color: #474747;
+  margin-top: 0px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.tamanhocontainer {
+  gap: 5px
+}
+
+.tamanho {
+  font-size: 14px;
+  margin: 0;
+  margin-top: 0px;
+  color: #8f8f8f;
+}
+
+.tamanhocaixa {
+  display: flex;
+  gap: 10px;
+  margin-top: 0px;
+}
+
+.tamanhocaixa h3 {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #474747;
+  transition: all 0.3s ease;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tamanhocaixa h3:hover{
+  color: #FFFFFF;
+  background-color: #C92071;
+}
+
+.eraprasercor {
+  font-size: 14px;
+  margin: 0;
+  color: #8f8f8f;
+}
+
+.bola1 {
+  cursor: pointer;
+  margin-top: 8px;
+  height: 28px;
+  width: 28px;
+}
+
+.bola2 {
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 8px;
+  height: 28px;
+  width: 28px;
+}
+
+.bola3 {
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 8px;
+  height: 28px;
+  width: 28px;
+}
+
+.bola4 {
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 8px;
+  height: 28px;
+  width: 28px;
+}
+
+.bola1:hover,
+.bola2:hover,
+.bola3:hover,
+.bola4:hover {
+  border: 1px solid #C92071;
+  border-radius: 50%;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.botaocompra {
+  margin-top: 18px;
+}
+
+.compra {
+  cursor: pointer;
+  color: #F5F5F5;
+  background-color: #FFB31F;
+  border: 2px solid #FFB31F;
+  border-radius: 8px;
+  height: 48px;
+  width: 220px;
+  padding: 10px;
+}
+
+.compra:hover{
+  color: #f5f5f58e;
+  background-color: #bd7e00;
+  border: 2px solid #bd7e00;
+}
