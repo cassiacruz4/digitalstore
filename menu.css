@@ -1,0 +1,13 @@
+.logoMenu{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #C92071;
+    font-size: 36.4px;
+    border: 0;
+  }
+
+  #header{
+    align-items: center;
+  }
