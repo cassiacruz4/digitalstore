@@ -26,10 +26,18 @@ footer .rodape {
     line-height: 26px;
     margin-bottom: 40px;
   }
-  footer .conteudo .redes {
+  footer .conteudo {
     display: flex;
     gap: 35px;
   }
+  .sitemap a{
+    color: white;
+  }
+  .categorias a{
+    color: white;
+  }
+  
+ 
   
 
   
