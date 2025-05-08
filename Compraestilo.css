@@ -1,3 +1,7 @@
+main {
+  flex: 1;
+}
+
 @media (max-width: 768px) {
   .tudo {
     flex-direction: column;
@@ -41,14 +45,14 @@ body {
   min-height: 100vh;
   justify-content: flex-start;
 }
+
 .tudo {
   max-width: 1200px;
-  height: 100vh;
-  margin: 0 auto;
+  margin-left: 1%;
   padding: 0 20px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column;
   flex: 1;
 }
@@ -157,6 +161,72 @@ body {
   background-color: #e8dfcf;
   border-radius: 4px;
   margin-left: 8px;
+}
+
+.iniciocatalogo {
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  margin-top: 60px;
+}
+
+.prod {
+  color: #474747;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 0;
+  flex: 1;
+}
+
+.vermais {
+  position: absolute;
+  right: -100%;
+  color: #c92071;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.catalogo2 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.vertical1,
+.vertical2,
+.vertical3,
+.vertical4 {
+  max-width: 500px;
+  height: 192px;
+  width: 200px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: block;
+  object-fit: cover;
+}
+
+.vertical1 {
+  margin-left: 210px;
+}
+
+.vertical2 {
+  margin-left: 50px;
+}
+
+.vertical3 {
+  margin-left: 50px;
+}
+
+.vertical4 {
+  margin-left: 50px;
 }
 
 .esquerda {
