@@ -2,7 +2,7 @@ main {
   flex: 1;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 400px) {
   .tudo {
     flex-wrap: wrap;
     flex-direction: column;
@@ -10,11 +10,13 @@ main {
   }
 
   .ladoesquerdo {
+    flex-wrap: wrap;
     width: 100%;
     gap: 10px;
   }
 
   .papetecontainer {
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 20px;
     height: auto;
@@ -27,17 +29,20 @@ main {
   }
 
   .papetedoseninha {
+    flex-wrap: wrap;
     width: 100%;
     padding: 0 10%;
   }
 
   .minisapato {
+    flex-wrap: wrap;
     width: 60px;
     height: 60px;
     margin-left: 0;
   }
 
   .descproduto {
+    flex-wrap: wrap;
     width: 100%;
   }
 }
@@ -104,8 +109,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   justify-content: flex-start;
-  max-width: 1440px;
-  max-height: 2119px;
 }
 
 .tudo {
