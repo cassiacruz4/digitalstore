@@ -2,8 +2,9 @@ main {
   flex: 1;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1000px) {
   .tudo {
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
   }
@@ -20,6 +21,7 @@ main {
   }
 
   .tudov2 {
+    flex-wrap: wrap;
     width: 100%;
     margin-top: 20px;
   }
@@ -107,6 +109,7 @@ body {
 }
 
 .tudo {
+  width: 100%;
   font-family: "Inter", sans-serif;
   margin-left: 0px;
   padding: 0 20px;
